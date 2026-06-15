@@ -51,7 +51,12 @@ SortBy              = "default"
 ## Comments
 [comments]
     enabled  = true
-    provider = "disqus"
+    provider = "utterances"
+
+[comments.utterances]
+    repo = "SylarMa/my-hugo-blog"
+    issueTerm = "pathname"
+    label = "评论"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
