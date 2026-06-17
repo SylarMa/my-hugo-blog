@@ -54,10 +54,10 @@ SortBy              = "default"
     provider = "utterances"
 
     [comments.utterances]
-        repo      = "SylarMa/my-hugo-blog"
-        issueTerm = "pathname"
-        label     = "comment"
-        theme     = "preferred-color-scheme"
+        repo = "SylarMa/my-hugo-blog"
+        issue-term = "pathname"
+        label = "💬"
+        theme = "preferred-color-scheme"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
